@@ -1,0 +1,26 @@
+{
+    "name": "vestin/hook",
+    "description": "php hook library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vestin",
+            "email": "vestinzds@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev":{
+        "phpunit/phpunit":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vestin\\Hook\\":"src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "test\\":"test/"
+        }
+    }
+}
